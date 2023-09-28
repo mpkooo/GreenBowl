@@ -1,0 +1,446 @@
+/*Button*/
+
+.primary-btn {
+  all: unset;
+  align-items: center;
+  border-radius: 32px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 14px 32px;
+  position: relative;
+}
+
+.primary-btn .text-wrapper {
+  color: #ffffff;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.primary-btn.default {
+  background-color: #13783e;
+}
+
+.primary-btn.disable {
+  background-color: #d0e4d8;
+}
+
+.secondary-btn {
+  all: unset;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #13783e;
+  border-radius: 32px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 32px;
+  position: relative;
+}
+
+.secondary-btn .text-wrapper {
+  color: #13783e;
+  margin-top: -2px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+/*PlaceHolder*/
+.PlaceHolderGrey {
+  align-items: center;
+  background-color: #e6eae8;
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  overflow: hidden;
+  padding: 16px 24px;
+  position: relative;
+  width: 420px;
+}
+
+.PlaceHolderGrey .text-wrapper {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.PlaceHolderGrey .default {
+  color: #9caca3;
+}
+
+.PlaceHolderGrey .filled {
+  color: #395947;
+}
+
+.place-holder-white {
+  align-items: center;
+  border: 1px solid;
+  border-color: #9caca3;
+  border-radius: 16px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px 24px;
+  position: relative;
+  width: 420px;
+}
+
+.place-holder-white .placeholder {
+  color: #395947;
+  flex: 1;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.place-holder-white .text-wrapper {
+  color: #13783e;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.place-holder-white .div {
+  color: #395947;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+/* TextBtn */
+
+.TextBtn {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+}
+
+.TextBtn .TextBtnAddIcon {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+  color: #13783e;
+}
+
+.TextBtn .text-wrapper {
+  color: #13783e;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.TextBtn .TextBtnArrowRightIcon {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.TextBtn.icon-left {
+  gap: 4px;
+}
+
+.TextBtn.icon-right {
+  gap: 4px;
+}
+
+.TextBtn.icon-left .text-wrapper {
+  text-align: center;
+}
+
+.TextBtn.default .text-wrapper {
+  text-align: center;
+}
+
+.TextBtn.icon-right .text-wrapper {
+  text-align: right;
+}
+
+/*Chipborder*/
+.chipBorder {
+  align-items: center;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 6px 10px;
+  position: relative;
+}
+
+.chipBorder .text-wrapper {
+  color: #13783e;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chipBorder.default {
+  border: 1px solid;
+  border-color: #ced6d1;
+}
+
+.chipBorder.selected {
+  border: 2px solid;
+  border-color: #0f6032;
+}
+
+.chipBorder.default .text-wrapper {
+  margin-top: -1px;
+}
+
+.chipBorder.selected .text-wrapper {
+  margin-top: -2px;
+}
+
+/* chip */
+
+.chip {
+  align-items: center;
+  border-radius: 32px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 6px 16px;
+  position: relative;
+}
+
+.chip .text-wrapper {
+  color: #13783e;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.chip.default {
+  border: 1px solid;
+  border-color: #ced6d1;
+}
+
+.chip.selected {
+  background-color: #e7f2ec;
+}
+
+/* singlechoice */
+
+.single-choice {
+  align-items: center;
+  border-radius: 32px;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 420px;
+}
+
+.single-choice .singleChoiceIcon {
+  position: relative;
+  width: 32px;
+}
+
+.single-choice .singleChoiceFrame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2px;
+  position: relative;
+}
+
+.single-choice .singleChoiceTitleText {
+  align-self: stretch;
+  color: #13783e;
+  margin-top: -1px;
+  position: relative;
+}
+
+.single-choice .singleChoiceBodyText {
+  align-self: stretch;
+  color: #6b8375;
+  position: relative;
+}
+
+.single-choice.default {
+  border: 1px solid;
+  border-color: #ced6d1;
+}
+
+.single-choice.selected {
+  background-color: #e7f2ec;
+}
+
+.single-choice.default .singleChoiceIcon {
+  height: 37.25px;
+}
+
+.single-choice.selected .singleChoiceIcon {
+  height: 37.65px;
+}
+
+/* singleChoiceNoIcon */
+
+.single-choice-no {
+  align-items: center;
+  border-radius: 32px;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  padding: 12px 24px;
+  position: relative;
+  width: 420px;
+}
+
+.single-choice-no .SingleChoiceNoIconFrame {
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2px;
+  position: relative;
+}
+
+.single-choice-no .SingleChoiceNoIconText {
+  align-self: stretch;
+  color: #13783e;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.single-choice-no.default {
+  border: 1px solid;
+  border-color: #ced6d1;
+}
+
+.single-choice-no.selected {
+  background-color: #e7f2ec;
+}
+
+.single-choice-no.default .SingleChoiceNoIconFrame {
+  align-items: center;
+  justify-content: center;
+}
+
+.single-choice-no.selected .SingleChoiceNoIconFrame {
+  align-items: flex-start;
+}
+
+/* multiplechoices */
+
+.multiple-choices {
+  align-items: center;
+  border-radius: 32px;
+  display: flex;
+  gap: 20px;
+  padding: 12px 24px;
+  position: relative;
+  width: 327px;
+}
+
+.multiple-choices .MultipleChoicesFrame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2px;
+  justify-content: center;
+  position: relative;
+}
+
+.multiple-choices .MultipleChoicesText {
+  align-self: stretch;
+  color: #13783e;
+  margin-top: -0.5px;
+  position: relative;
+}
+
+.multiple-choices .MultipleChoicesTick {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.multiple-choices.default {
+  border: 1px solid;
+  border-color: #ced6d1;
+}
+
+.multiple-choices.selected {
+  background-color: #e7f2ec;
+}
+
+/* siniglechoiceborder */
+
+.singleChoiceBorder {
+  align-items: center;
+  border-radius: 16px;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+  width: 327px;
+}
+
+.singleChoiceBorder .image {
+  height: 37.25px;
+  position: relative;
+  width: 32px;
+}
+
+.singleChoiceBorder .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2px;
+  position: relative;
+}
+
+.singleChoiceBorder .text-wrapper {
+  align-self: stretch;
+  color: #13783e;
+  margin-top: -1px;
+  position: relative;
+}
+
+.singleChoiceBorder .text-wrapper-2 {
+  align-self: stretch;
+  color: #6b8375;
+  position: relative;
+}
+
+.singleChoiceBorder.default {
+  border: 1px solid;
+  border-color: #ced6d1;
+}
+
+.singleChoiceBorder.selected {
+  border: 2px solid;
+  border-color: #0f6032;
+}

@@ -1,0 +1,587 @@
+p {
+  margin: 0; /* This removes all margin (top and bottom) */
+}
+
+/*Landing*/
+.center-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust as needed for the container's height */
+}
+
+.LoginBox {
+  position: relative;
+}
+
+.LoginBox .LoginTitle {
+  text-align: center;
+  color: #429365;
+  top: -70px;
+}
+
+.GreenBowl {
+  position: relative;
+  top: -150px;
+  height: 300px;
+}
+
+.LoginBtnFrame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 327px;
+  top: -350px;
+  margin: 0 auto;
+}
+
+.LoginBtnFrame .DesignPrimaryBtn,
+.LoginBtnFrame .DesignSecondaryBtn {
+  width: 100%;
+  align-items: center;
+}
+
+/*Login*/
+
+.TopLogo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 200px;
+}
+
+.TopLogo img {
+  width: 80px; /* Set your desired width */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
+
+.LoginLabelBox {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  position: relative;
+  margin-top: -100px;
+}
+
+.LoginLabelBox .LoginLabel {
+  color: #429365;
+  text-align: center;
+}
+
+.LoginBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.LoginBox .LoginBox2 {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginBox2 .LoginPlaceholder {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginBox2 .LoginPrimaryBtn {
+  width: 100%;
+}
+
+/*InputNamePage*/
+
+.InputNamePageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: -50px;
+}
+
+.InputNamePageLabel {
+  text-align: center;
+  color: #13783e;
+}
+
+.ArrowLeftBox {
+  position: fixed; /* This makes the icon fixed to the viewport */
+  top: 50px; /* Position the icon at the top of the viewport */
+  left: 50px; /* Position the icon at the left of the viewport */
+  z-index: 999; /* Set a z-index to ensure it appears above other content */
+}
+
+.NextBtn {
+  position: fixed;
+  z-index: 999;
+  right: 50px;
+  bottom: 50px;
+}
+
+/* IntroductionPage */
+
+.IntroductionPageContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.IntroductionPageContainer .IntroductionPageBox1 {
+  align-items: flex-start;
+}
+
+.QuestionLabel {
+  color: #13783e;
+}
+
+.IntroductionPageLabel2 {
+  color: #71ae8b;
+  margin-top: 0px;
+}
+
+.IntroductionPageLabel3 {
+  color: #6b8375;
+  margin-top: 32px;
+}
+
+.IntroductionPageContainer .IntroductionPageBox2 {
+  color: #6b8375;
+  margin-top: 0px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 336px;
+}
+
+/*Onboarding1*/
+
+.OnboardingContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 32px;
+  width: 700px;
+}
+
+.OnboardingContainer .QuestionSubLabel {
+  color: #6b8375;
+  margin-top: 24px;
+}
+
+.ContinentBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 0px;
+  margin-right: 50px;
+}
+
+.ContinentBox img {
+  width: 400px; /* Set your desired width */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
+
+.ChipNA {
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 520px;
+}
+
+.ChipSA {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 520px;
+}
+
+.ChipE {
+  position: absolute;
+  margin-top: -240px;
+  margin-left: 680px;
+}
+
+.ChipAF {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 660px;
+}
+
+.ChipAS {
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 800px;
+}
+
+.ChipAU {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 770px;
+}
+
+.myProgress {
+  width: 700px;
+  height: 6px;
+  background-color: #e6eae8;
+  margin: auto;
+  margin-top: -120px;
+}
+
+.myBar1 {
+  width: 10%;
+  height: inherit;
+  background-color: #13783e;
+}
+
+.myBar2 {
+  width: 20%;
+  height: inherit;
+  background-color: #13783e;
+}
+.myBar3 {
+  width: 30%;
+  height: inherit;
+  background-color: #13783e;
+}
+.myBar4 {
+  width: 40%;
+  height: inherit;
+  background-color: #13783e;
+}
+.myBar5 {
+  width: 50%;
+  height: inherit;
+  background-color: #13783e;
+}
+.myBar6 {
+  width: 60%;
+  height: inherit;
+  background-color: #13783e;
+}
+.myBar7 {
+  width: 70%;
+  height: inherit;
+  background-color: #13783e;
+}
+.myBar8 {
+  width: 80%;
+  height: inherit;
+  background-color: #13783e;
+}
+.myBar9 {
+  width: 90%;
+  height: inherit;
+  background-color: #13783e;
+}
+
+.myBar10 {
+  width: 100%;
+  height: inherit;
+  background-color: #13783e;
+}
+
+/* onboarding2 */
+
+.OnboardingInput {
+  margin-top: 120px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .Onboarding4 */
+
+.CaptionLabel {
+  color: #13783e;
+}
+
+.CaptionSubLabel {
+  color: #6b8375;
+}
+
+.CaptionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+/* Onboarding5 */
+
+.singleChoiceBox {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 90px;
+}
+
+/* onboarding8 */
+
+.chipFrame {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 12px;
+  position: relative;
+  width: 700px;
+}
+
+.chipFrame .chip-instance {
+  flex: 0 0 auto !important;
+}
+
+.addIngredient {
+  position: relative;
+  margin-top: 50px;
+}
+
+/* Home */
+
+.HomeLogo {
+  position: fixed; /* This makes the icon fixed to the viewport */
+  top: 120px; /* Position the icon at the top of the viewport */
+  left: 250px; /* Position the icon at the left of the viewport */
+  z-index: 999; /* Set a z-index to ensure it appears above other content */
+}
+
+.HomeLogo img {
+  width: 120px;
+}
+
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 250px;
+  top: 100px;
+  gap: 10px;
+  position: fixed;
+}
+
+.HomeLabel1 {
+  color: #13783e;
+}
+
+.HomeLabel2 {
+  color: #9caca3;
+}
+
+.featureBox {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}
+
+/* recipeframe */
+
+.featureBox .recipeBox {
+  border: 1px solid;
+  border-color: #ced6d1;
+  border-radius: 24px;
+  height: 400px;
+  position: relative;
+  width: 450px;
+  top: 250px;
+  left: 250px;
+}
+
+.recipeBox .textFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.textFrame .text-wrapper {
+  align-self: stretch;
+  color: #13783e;
+  position: relative;
+}
+
+.textFrame .your-personalized {
+  align-self: stretch;
+  color: #13783e;
+  position: relative;
+}
+
+.textFrame .secondary-btn-instance {
+  align-self: stretch !important;
+  background-color: #13783e;
+  border: unset !important;
+  border-color: unset !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: 70% !important;
+}
+
+.textFrame .secondary-btn-instance-div {
+  color: #ffffff;
+}
+
+.recipeBox .recipeImageFrame {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.recipeImage {
+  width: 150px;
+}
+
+/* menuframe */
+
+.featureBox .menuBox {
+  border: 1px solid;
+  border-color: #ced6d1;
+  border-radius: 24px;
+  height: 400px;
+  position: relative;
+  width: 450px;
+  top: 250px;
+  left: 250px;
+}
+.menuBox .textFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.menuBox .plate1Frame {
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.menuBox .plate2Frame {
+  margin-top: -150px;
+  margin-left: 50px;
+}
+
+.menuBox .plate5Frame {
+  margin-top: -100px;
+  margin-left: 280px;
+}
+
+.recipeImage {
+  width: 150px;
+}
+
+/* recipeStart */
+
+.pencilBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 100px;
+}
+
+.pencil img {
+  width: 80px; /* Set your desired width */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
+
+.closeBtnBox {
+  position: fixed; /* This makes the icon fixed to the viewport */
+  top: 50px; /* Position the icon at the top of the viewport */
+  right: 50px; /* Position the icon at the left of the viewport */
+  z-index: 999; /* Set a z-index to ensure it appears above other content */
+}
+
+.StartBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+
+.StartTitle {
+  color: #13783e;
+}
+
+.StartBody {
+  color: #6b8375;
+}
+
+.StartBtnBox {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.StartBtn {
+  width: 360px;
+}
+
+/* recipe1 */
+
+.returnBtn {
+  position: fixed; /* This makes the icon fixed to the viewport */
+  top: 50px; /* Position the icon at the top of the viewport */
+  left: 50px; /* Position the icon at the left of the viewport */
+  z-index: 999; /* Set a z-index to ensure it appears above other content */
+}
+
+.recipeHeadBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  gap: 4px;
+}
+
+.recipeTitle {
+  color: #13783e;
+}
+
+.recipeBody {
+  color: #9caca3;
+}
+
+.chipFrame {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* recipe2 */
+
+.recipeInput .recipeRequireTitle {
+  color: #6b8375;
+}
+
+.recipeInput {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 12px;
+  position: relative;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.recipeInput .recipeRequireBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.singleChoiceBorder {
+  width: 360px;
+}
+
+/* recipe 3 */
+
+.chipFrame .AddMainIngredient {
+  text-align: left;
+  justify-content: flex-start;
+  align-self: flex-start;
+}

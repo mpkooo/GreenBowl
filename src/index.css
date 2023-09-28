@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,224 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* Display/D1 B */
+.D1-B {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+  letter-spacing: 0.8px;
+}
+
+/* Display/D1 M */
+.D1-M {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 52px */
+  letter-spacing: 0.8px;
+}
+
+/* Display/D2 B */
+.D2-B {
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 41.6px */
+letter-spacing: 0.64px;
+}
+
+/* Display/D2 M */
+.D2-M {
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 41.6px */
+letter-spacing: 0.64px;
+}
+
+/* Display/D3 B */
+.D3-B {
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 36.4px */
+letter-spacing: 0.56px;
+}
+
+/* Display/D3 M */
+.D3-M {
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 36.4px */
+letter-spacing: 0.56px;
+}
+
+.H1-B {
+  /* Headline/H1 B */
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 31.2px */
+letter-spacing: 0.48px;
+}
+
+.H1-M {
+  /* Headline/H1 M */
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+letter-spacing: 0.48px;
+}
+
+.H2-B {
+  /* Headline/H2 B */
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 28.6px */
+letter-spacing: 0.44px;
+}
+
+.H2-M {
+  /* Headline/H2 M */
+font-family: 'Frank Ruhl Libre', serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 28.6px */
+letter-spacing: 0.44px;
+}
+
+.T1-SB {
+  /* Title/T1 SB */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 28px */
+letter-spacing: 0.4px;
+}
+
+.T1-M {
+  /* Title/T1 M */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 28px */
+letter-spacing: 0.4px;
+}
+
+.T2-SB {
+  /* Title/T2 SB */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 25.2px */
+letter-spacing: 0.36px;
+}
+
+.T2-M {
+  /* Title/T2 M */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 25.2px */
+letter-spacing: 0.36px;
+}
+
+.B1-M {
+  /* Body/B1 M */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 144%; /* 23.04px */
+letter-spacing: 0.32px;
+}
+
+.B1-R {
+  /* Body/B1 R */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 144%; /* 23.04px */
+letter-spacing: 0.32px;
+}
+
+.B2-M {
+  /* Body/B2 M */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 144%; /* 20.16px */
+letter-spacing: 0.28px;
+}
+
+.B2-R {
+  /* Body/B2 R */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 144%; /* 20.16px */
+letter-spacing: 0.28px;
+}
+
+.C1-M {
+  /* Body/B2 R */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 144%; /* 20.16px */
+letter-spacing: 0.28px;
+}
+
+.C1-R {
+  /* Caption/C1 R */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 144%; /* 17.28px */
+letter-spacing: 0.24px;
+}
+
+.C2-M {
+  /* Caption/C2 M */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 144%; /* 14.4px */
+letter-spacing: 0.2px;
+}
+
+.C2-R {
+  /* Caption/C2 R */
+font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 144%; /* 14.4px */
+letter-spacing: 0.2px;
 }
